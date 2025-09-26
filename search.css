@@ -1,0 +1,77 @@
+/* search.css - ganti seluruh file dengan ini */
+
+/* reset kecil */
+* { box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url('images/alat musik 3.jpg') no-repeat center center/cover;
+  background-color: #8b4513; 
+  color: white;
+}
+
+/* Logo di navbar */
+.logo {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo img {
+  height: 100px; 
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(0,0,0,0.7));
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background: rgba(139, 69, 19, 0.8); 
+  padding: 45px 60px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px; 
+  transition: color 0.3s;
+}
+
+
+.navbar a:hover {
+  color: #ffd27f; 
+}
+/* Konten Search: beri top padding supaya nggak tertutup navbar */
+.search-page {
+  /* padding-top harus >= navbar height (padding + font). 90px aman untuk config ini */
+  padding-top: 90px;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* judul & teks */
+.search-page h1 {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+  color: white;
+}
+
+.search-page p {
+  font-size: 18px;
+  color: #555;
+}

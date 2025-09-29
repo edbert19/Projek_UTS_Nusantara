@@ -3,28 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Page</title>
+  <title>Search Alat Musik</title>
   <link rel="stylesheet" href="search.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <!-- Navbar -->
   <div class="navbar">
-  <div class="logo">
-    <img src="images/logo musindo.png" alt="Musindo Logo">
-  </div>
-    <a href="#">Home</a>
-    <a href="search.html">Search</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
- 
+    <div class="logo">
+      <img src="images/logo musindo.png" alt="Musindo Logo">
+    </div>
+    <a href="index.html">Home</a>
+    <a href="search.html" class="active">Search</a>
+    <a href="index.html#about">About Us</a>
+    <a href="index.html#contact">Contact</a>
   </div>
 
+  <!-- Search Section -->
+  <section class="search-section">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Cari alat musik tradisional...">
+      <button class="search-btn" onclick="searchInstrument()">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+  </section>
 
-  <!-- Konten Search -->
-  <div class="search-page">
-    <h1>Halaman Search</h1>
+  <!-- Hasil Search -->
+  <section id="results" class="results-section">
+    <!-- Card akan diisi pakai JS -->
+  </section>
 
-  </div>
+  <script src="search.js"></script>
 </body>
 </html>

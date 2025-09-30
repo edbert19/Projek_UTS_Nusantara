@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Alat Musik</title>
+  <link rel="stylesheet" href="../css/search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <img src="../images/logo musindo.png" alt="Musindo Logo">
+    </div>
+    <a href="index.html">Home</a>
+    <a href="search.html" class="active">Search</a>
+    <a href="index.html#about">About Us</a>
+    <a href="index.html#contact">Contact</a>
+  </div>
+
+  <!-- Search Section -->
+  <section class="search-section">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Cari alat musik tradisional...">
+      <button class="search-btn" onclick="searchInstrument()">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+  </section>
+
+  <!-- Hasil Search -->
+  <section id="results" class="results-section">
+    <!-- Card akan diisi pakai JS -->
+  </section>
+
+  <script src="../js/search.js"></script>
+  <script src="../js/data.js"></script>
+</body>
+</html>

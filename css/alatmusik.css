@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("../images/background_1.jpeg") repeat-y center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.content-box {
+  background: #d08c3d;
+  padding: 30px;
+  border-radius: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.content-box img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}

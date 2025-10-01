@@ -1,6 +1,15 @@
+let instruments = [];
 
+// Ambil data dari file JSON
+fetch("../js/data.json")
+  .then(response => response.json())
+  .then(data => {
+    instruments = data;
+    displayResults(instruments); // tampilkan semua pas load pertama
+  })
+  .catch(error => console.error("Gagal load data:", error));
 
-/// Render hasil
+// Render hasil
 function displayResults(list) {
   const results = document.getElementById("results");
   results.innerHTML = "";
@@ -28,6 +37,3 @@ function searchInstrument() {
   );
   displayResults(filtered);
 }
-
-// Tampilkan semua saat pertama kali
-window.onload = () => displayResults(instruments);

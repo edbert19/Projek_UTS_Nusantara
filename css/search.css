@@ -54,6 +54,10 @@ body {
   padding: 40px 20px;
 }
 
+.card-content h3{
+  text-decoration: none !important;
+}
+
 .search-container {
   display: flex;
   align-items: center;
@@ -124,6 +128,10 @@ body {
   border-radius: 10px;
 }
 
+.card h3{
+  text-decoration: none;
+}
+
 .card-content {
   padding: 12px;
 }
@@ -132,6 +140,7 @@ body {
   font-size: 22px; 
   margin-top: 12px;
   margin-bottom: 5px;
+  text-decoration: none;
   color: #8b4513;  /* cokelat */
 }
 

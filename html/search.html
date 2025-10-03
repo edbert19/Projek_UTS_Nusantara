@@ -22,10 +22,46 @@
   <!-- Search Section -->
   <section class="search-section">
     <div class="search-container">
+      <!-- Search Input -->
       <input type="text" id="searchInput" placeholder="Cari alat musik tradisional...">
       <button class="search-btn" onclick="searchInstrument()">
-        <i class="fas fa-search"></i> Search
+        <i class="fas fa-search"></i>
       </button>
+
+      <!-- Tombol Filter -->
+      <div class="filter-wrapper">
+        <button id="filterToggle" class="filter-btn">
+          <i class="fas fa-filter"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Panel Filter (Muncul di bawah search bar) -->
+    <div id="filterPanel" class="filter-panel hidden">
+      <div class="filter-columns">
+        
+        <!-- Kolom kiri: Provinsi -->
+        <div class="filter-col">
+          <h4>Provinsi</h4>
+          <div id="provinsiOptions"></div>
+        </div>
+
+        <!-- Kolom kanan: Cara Main -->
+        <div class="filter-col">
+          <h4>Cara Main</h4>
+          <div id="caraMainOptions">
+            <label><input type="checkbox" value="dipetik"> Dipetik</label><br>
+            <label><input type="checkbox" value="dipukul"> Dipukul</label><br>
+            <label><input type="checkbox" value="ditiup"> Ditiup</label><br>
+            <label><input type="checkbox" value="digoyang"> Digoyang</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Apply -->
+      <div class="filter-actions">
+        <button id="applyFiltersBtn">Terapkan</button>
+      </div>
     </div>
   </section>
 
@@ -35,6 +71,6 @@
   </section>
 
   <script src="../js/search.js"></script>
-  <script src="../js/data.js"></script>
+  <script src="../js/filter.js"></script>
 </body>
 </html>

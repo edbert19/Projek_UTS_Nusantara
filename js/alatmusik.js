@@ -1,14 +1,25 @@
-
+// Ambil parameter id dari URL
 const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
+const instrumentId = params.get("id");
 
-const alat = instruments.find(item => item.id === id);
+// Ambil data JSON
+fetch("../js/data.json") // perhatikan path-nya, pakai ../ biar sejajar dengan HTML
+  .then(response => response.json())
+  .then(data => {
+    const instrument = data.find(item => item.id === instrumentId);
+    if (instrument) {
+      showDetail(instrument);
+    } else {
+      document.querySelector(".content-box").innerHTML = "<p>Data tidak ditemukan.</p>";
+    }
+  })
+  .catch(error => console.error("Gagal load data:", error));
 
-if (alat) {
-  document.getElementById("nama").innerText = alat.name;
-  document.getElementById("foto").src = alat.image;
-  document.getElementById("origin").innerText = alat.origin;
-  document.getElementById("deskripsi").innerText = alat.history || "Belum ada deskripsi.";
-} else {
-  document.querySelector(".content-box").innerHTML = "<h2>Alat musik tidak ditemukan</h2>";
+function showDetail(item) {
+  document.getElementById("nama").textContent = item.name;
+  document.getElementById("foto").src = item.image;
+  document.getElementById("origin").textContent = item.origin;
+  document.getElementById("history").textContent = item.history;
+  document.getElementById("meaning").textContent = item.meaning;
+  document.getElementById("howToPlay").textContent = item.howToPlay;
 }

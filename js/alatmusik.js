@@ -21,5 +21,5 @@ function showDetail(item) {
   document.getElementById("origin").textContent = item.origin;
   document.getElementById("history").textContent = item.history;
   document.getElementById("meaning").textContent = item.meaning;
-  document.getElementById("howToPlay").textContent = item.howToPlay;
+  document.getElementById("howToPlaydetail").textContent = item.howToPlayDetail;
 }

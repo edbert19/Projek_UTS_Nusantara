@@ -186,13 +186,14 @@ body {
 }
 
 .contact-person {
-  margin-bottom: 35px;
+  width: 250px;
+  text-align: left;
 }
 
 .contact-person h3 {
-  font-size: 24px; 
   color: #ffd27f;
-  margin-bottom: 12px;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .contact-person p {
@@ -200,10 +201,10 @@ body {
 }
 
 .contact-person a {
-  font-size: 20px;       
+  font-size: 18px;
   color: white;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
 
 .contact-person a:hover {
@@ -211,9 +212,8 @@ body {
 }
 
 .contact-person i {
-  margin-right: 10px;
+  margin-right: 8px;
   color: #ffd27f;
-  font-size: 22px; 
 }
 
 html {
@@ -304,33 +304,6 @@ object#petaIndonesia {
   margin-bottom: 25px;
 }
 
-.contact-person {
-  width: 250px;
-  text-align: left;
-}
-
-.contact-person h3 {
-  color: #ffd27f;
-  font-size: 22px;
-  margin-bottom: 10px;
-}
-
-.contact-person a {
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.contact-person a:hover {
-  color: #ffd27f;
-}
-
-.contact-person i {
-  margin-right: 8px;
-  color: #ffd27f;
-}
-
 .email-link {
   display: flex;
   align-items: center;
@@ -342,4 +315,5 @@ object#petaIndonesia {
   font-size: 16px;
   color: #ffd27f;
   font-style: italic;
+}
 }

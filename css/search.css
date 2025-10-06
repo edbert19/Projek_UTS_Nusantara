@@ -114,62 +114,7 @@ a:active {
   background-color: #a0522d;
 }
 
-/* ===================== RESULT CARDS ===================== */
-.results-section {
-  padding: 50px 40px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 25px;
-  justify-items: center;
-}
 
-.card {
-  background: rgba(210, 180, 140, 0.92); /* coklat muda transparan */
-  border-radius: 16px;
-  padding: 16px;
-  text-align: center;
-  width: 260px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  backdrop-filter: blur(4px);
-}
-
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.35);
-}
-
-.card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  transition: transform 0.3s ease;
-}
-
-.card:hover img {
-  transform: scale(1.05);
-}
-
-.card-content {
-  padding: 12px 8px 4px 8px;
-}
-
-.card-content h3 {
-  font-size: 18px;
-  margin: 10px 0 4px 0;
-  color: #5a2d0c;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-}
-
-.card-content p {
-  font-size: 14px;
-  color: #2d1b0f;
-  margin-top: 2px;
-  line-height: 1.4;
-}
 
 /* ===================== FILTER ===================== */
 .filter-wrapper {
@@ -269,7 +214,104 @@ a:active {
   to {opacity: 1; transform: translateY(0);}
 }
 
+
+/* ===================== RESULT CARDS ===================== */
+.results-section {
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Tetap 4 kolom */
+  gap: 25px; /* Jarak antar kartu */
+  justify-items: center; /* Posisikan kartu di tengah kolom */
+}
+
+/* Tambahkan/pastikan ini untuk card wrapper (untuk posisi bintang) */
+.card-wrapper {
+  position: relative;
+  width: 260px; /* Pastikan ukuran wrapper sesuai card */
+}
+
+.card {
+  background: rgba(210, 180, 140, 0.92);
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  width: 100%; /* Pastikan card mengisi penuh wrapper */
+  height: 320px; /* TINGGI TETAP untuk card, agar semua seragam */
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(4px);
+  display: flex; /* Gunakan flexbox untuk tata letak internal card */
+  flex-direction: column;
+  justify-content: space-between; /* Untuk mendorong content ke bawah */
+  align-items: center;
+  text-decoration: none; /* Pastikan link tidak punya garis bawah */
+  color: inherit; /* Warna teks tidak berubah */
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+}
+
+.card img {
+  width: 100%; /* Gambar mengisi lebar card */
+  height: 180px; /* TINGGI TETAP untuk gambar */
+  object-fit: cover; /* **SANGAT PENTING:** agar gambar memenuhi area tanpa merusak aspek rasio */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.03); /* Sedikit lebih kecil agar tidak terlalu menonjol */
+}
+
+.card-content {
+  padding: 12px 8px 4px 8px;
+  flex-grow: 1; /* Konten mengisi sisa ruang */
+  display: flex; /* Untuk menata h3 dan p */
+  flex-direction: column;
+  justify-content: center; /* Posisikan teks di tengah vertikal jika ruang cukup */
+}
+
+.card-content h3 {
+  font-size: 18px;
+  margin: 10px 0 4px 0;
+  color: #5a2d0c;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #2d1b0f;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+/* ===================== FAVORITE BUTTON ===================== */
+.favorite-btn {
+  position: absolute;
+  top: 25px; /* Sesuaikan posisi vertikal */
+  right: 25px; /* Sesuaikan posisi horizontal */
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+  cursor: pointer;
+  z-index: 10;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.15);
+}
+
+.favorite-btn.favorited {
+  color: #ffc107; /* Warna emas */
+}
+
 /* ===================== RESPONSIVE ===================== */
+/* Pastikan media queries Anda juga tidak bentrok */
 @media (max-width: 1024px) {
   .results-section {
     grid-template-columns: repeat(3, 1fr);
@@ -280,17 +322,18 @@ a:active {
   .results-section {
     grid-template-columns: repeat(2, 1fr);
   }
-  .filter-columns {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .filter-actions {
-    text-align: center;
+  .card-wrapper {
+    width: 280px; /* Bisa disesuaikan untuk layar lebih kecil */
   }
 }
 
 @media (max-width: 480px) {
   .results-section {
     grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .card-wrapper {
+    width: 90%; /* Hampir memenuhi lebar layar */
+    max-width: 300px; /* Batasan maksimum */
   }
 }

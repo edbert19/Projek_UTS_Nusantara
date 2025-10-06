@@ -26,7 +26,7 @@ function displayResults(list) {
         <img src="${item.image}" alt="${item.name}">
         <div class="card-content">
           <h3>${item.name}</h3>
-          <p>${item.origin} - ${item.howtoplay}</p>
+          <p>${item.origin}</p>
         </div>
       </a>
     `;

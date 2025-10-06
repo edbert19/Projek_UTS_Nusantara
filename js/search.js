@@ -1,5 +1,11 @@
 let instruments = [];
 
+// Helper ambil parameter dari URL
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
+}
+
 // Ambil data dari file JSON
 fetch("../js/data.json")
   .then(response => response.json())
@@ -7,6 +13,20 @@ fetch("../js/data.json")
     instruments = data;
     displayResults(instruments); // tampilkan semua pas load pertama
     populateFilters(); // isi dropdown filter setelah data ke-load
+
+    // 🔹 Cek apakah ada parameter "prov" di URL
+    const provParam = getQueryParam("prov");
+    if (provParam) {
+      // Auto filter berdasarkan provinsi
+      const filtered = instruments.filter(item => 
+        item.origin.toLowerCase() === provParam.toLowerCase()
+      );
+      displayResults(filtered);
+
+      // Sekalian isi search box biar kelihatan
+      const searchInput = document.getElementById("searchInput");
+      if (searchInput) searchInput.value = provParam;
+    }
   })
   .catch(error => console.error("Gagal load data:", error));
 
@@ -26,7 +46,7 @@ function displayResults(list) {
         <img src="${item.image}" alt="${item.name}">
         <div class="card-content">
           <h3>${item.name}</h3>
-          <p>${item.origin}</p>
+          <p><b>Asal:</b> ${item.origin}</p>
         </div>
       </a>
     `;
@@ -34,26 +54,27 @@ function displayResults(list) {
   });
 }
 
-// Fungsi isi dropdown pulau
+// Fungsi isi dropdown provinsi
 function populateFilters() {
-  const pulauSelect = document.getElementById("pulauSelect");
-  let pulauSet = new Set();
+  const provinsiOptions = document.getElementById("provinsiOptions");
+  let provinsiSet = new Set();
 
   instruments.forEach(item => {
     if (item.origin) {
-      pulauSet.add(item.origin);
+      provinsiSet.add(item.origin);
     }
   });
 
-  pulauSet.forEach(pulau => {
-    const option = document.createElement("option");
-    option.value = pulau;
-    option.textContent = pulau;
-    pulauSelect.appendChild(option);
+  provinsiOptions.innerHTML = "";
+  provinsiSet.forEach(prov => {
+    const label = document.createElement("label");
+    label.innerHTML = `<input type="checkbox" value="${prov}"> ${prov}`;
+    provinsiOptions.appendChild(label);
+    provinsiOptions.appendChild(document.createElement("br"));
   });
 }
 
-// Fungsi search
+// Fungsi search manual
 function searchInstrument() {
   applyFilters();
 }
@@ -61,24 +82,19 @@ function searchInstrument() {
 // Fungsi filter
 function applyFilters() {
   const input = document.getElementById("searchInput").value.toLowerCase();
-  const pulau = document.getElementById("pulauSelect").value;
-  const caraMain = document.getElementById("caraMainSelect").value;
 
   let filtered = instruments.filter(item => {
     const matchSearch =
       item.name.toLowerCase().includes(input) ||
-      item.origin.toLowerCase().includes(input);
+      item.origin.toLowerCase().includes(input) ||
+      item.history.toLowerCase().includes(input) || 
+      item.meaning.toLowerCase().includes(input);
 
-    const matchPulau = pulau === "" || item.origin === pulau;
-    const matchCaraMain = caraMain === "" || item.howtoplay === caraMain;
-
-    return matchSearch && matchPulau && matchCaraMain;
+    return matchSearch;
   });
 
   displayResults(filtered);
 }
 
-// Event listener untuk filter
-document.getElementById("pulauSelect").addEventListener("change", applyFilters);
-document.getElementById("caraMainSelect").addEventListener("change", applyFilters);
+// Event listener untuk search realtime
 document.getElementById("searchInput").addEventListener("input", applyFilters);

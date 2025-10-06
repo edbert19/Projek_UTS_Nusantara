@@ -7,6 +7,10 @@ function getFavorites() {
 
 function saveFavorites(favorites) {
     localStorage.setItem('favorites', JSON.stringify(favorites));
+// Helper ambil parameter dari URL
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(param);
 }
 
 // Ambil data dari file JSON
@@ -16,6 +20,21 @@ fetch("../js/data.json")
     instruments = data;
     displayResults(instruments); // tampilkan semua pas load pertama
     // populateFilters(); // Fungsi ini mungkin sudah ada di filter.js atau kode lain
+    populateFilters(); // isi dropdown filter setelah data ke-load
+
+    // 🔹 Cek apakah ada parameter "prov" di URL
+    const provParam = getQueryParam("prov");
+    if (provParam) {
+      // Auto filter berdasarkan provinsi
+      const filtered = instruments.filter(item => 
+        item.origin.toLowerCase() === provParam.toLowerCase()
+      );
+      displayResults(filtered);
+
+      // Sekalian isi search box biar kelihatan
+      const searchInput = document.getElementById("searchInput");
+      if (searchInput) searchInput.value = provParam;
+    }
   })
   .catch(error => console.error("Gagal load data:", error));
 
@@ -61,6 +80,14 @@ document.getElementById("results").addEventListener('click', function(e) {
     // Pastikan yang diklik adalah elemen dengan class 'favorite-btn'
     if (e.target.classList.contains('favorite-btn')) {
         toggleFavorite(e.target);
+// Fungsi isi dropdown provinsi
+function populateFilters() {
+  const provinsiOptions = document.getElementById("provinsiOptions");
+  let provinsiSet = new Set();
+
+  instruments.forEach(item => {
+    if (item.origin) {
+      provinsiSet.add(item.origin);
     }
 });
 
@@ -84,3 +111,36 @@ function toggleFavorite(starIcon) {
 
 // Catatan: Kode filter asli Anda bisa diletakkan di sini jika masih digunakan di file ini.
 // Contoh: function applyFilters(), event listeners untuk filter, dll.
+  provinsiOptions.innerHTML = "";
+  provinsiSet.forEach(prov => {
+    const label = document.createElement("label");
+    label.innerHTML = `<input type="checkbox" value="${prov}"> ${prov}`;
+    provinsiOptions.appendChild(label);
+    provinsiOptions.appendChild(document.createElement("br"));
+  });
+}
+
+// Fungsi search manual
+function searchInstrument() {
+  applyFilters();
+}
+
+// Fungsi filter
+function applyFilters() {
+  const input = document.getElementById("searchInput").value.toLowerCase();
+
+  let filtered = instruments.filter(item => {
+    const matchSearch =
+      item.name.toLowerCase().includes(input) ||
+      item.origin.toLowerCase().includes(input) ||
+      item.history.toLowerCase().includes(input) || 
+      item.meaning.toLowerCase().includes(input);
+
+    return matchSearch;
+  });
+
+  displayResults(filtered);
+}
+
+// Event listener untuk search realtime
+document.getElementById("searchInput").addEventListener("input", applyFilters);

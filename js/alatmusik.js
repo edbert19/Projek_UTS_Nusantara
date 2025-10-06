@@ -22,4 +22,9 @@ function showDetail(item) {
   document.getElementById("history").textContent = item.history;
   document.getElementById("meaning").textContent = item.meaning;
   document.getElementById("howToPlaydetail").textContent = item.howToPlayDetail;
+
+  // Tambahkan tombol favorit di content-box
+  const contentBox = document.querySelector(".content-box");
+  const favBtn = createFavoriteButton(item.id);
+  contentBox.appendChild(favBtn);
 }

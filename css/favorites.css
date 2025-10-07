@@ -1,14 +1,17 @@
+/* Memberi ruang di atas agar konten tidak tertutup navbar */
 body {
-  padding-top: 100px; /* Memberi ruang untuk navbar fixed */
+  padding-top: 135px; 
 }
 
+/* Wadah utama untuk konten halaman favorit */
 .favorite-container {
   padding: 40px 20px;
   text-align: center;
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
+/* Styling untuk judul halaman */
 .favorite-container h1 {
   font-size: 36px;
   color: #ffd27f;
@@ -16,17 +19,25 @@ body {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
-/* Pesan saat tidak ada item favorit */
+/* Mengatur posisi wadah hasil favorit */
+#favorite-results {
+  /* Saat kosong, ini akan membuat pesan ke tengah */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+
+  /* Saat terisi kartu, properti grid dari search.css akan mengambil alih */
+  /* Jadi kode ini aman untuk kedua kondisi (kosong atau terisi) */
+}
+
+/* Styling untuk pesan saat tidak ada item favorit */
 .no-favorites-message {
   font-size: 20px;
   color: #ccc;
-  margin-top: 50px;
 }
 
-/* Tambahkan ini di file favorites.css */
-#favorite-results {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 200px; /* Memberi ruang vertikal agar bisa pas di tengah */
+.card-wrapper {
+  width: 23%;
 }

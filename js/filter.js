@@ -4,7 +4,6 @@ const filterPanel = document.getElementById("filterPanel");
 const provinsiOptions = document.getElementById("provinsiOptions");
 const caraMainOptions = document.getElementById("caraMainOptions");
 
-// === SHOW / HIDE PANEL ===
 filterToggle.addEventListener("click", (e) => {
   e.stopPropagation();
   filterPanel.classList.toggle("show");
@@ -16,15 +15,12 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// === INISIALISASI FILTER ===
 function initFilters() {
-  if (!instruments || instruments.length === 0) return; // pastikan data udah siap
+  if (!instruments || instruments.length === 0) return;
 
-  // Bersihkan dulu biar ga dobel
   provinsiOptions.innerHTML = "";
   caraMainOptions.innerHTML = "";
 
-  // === PROVINSI ===
   const provinsiList = [...new Set(instruments.map(i => i.origin))];
   provinsiList.forEach(prov => {
     if (prov) {
@@ -34,7 +30,6 @@ function initFilters() {
     }
   });
 
-  // === CARA MAIN ===
   const caraMainList = [...new Set(instruments.map(i => i.howToPlay))];
   caraMainList.forEach(cara => {
     if (cara) {

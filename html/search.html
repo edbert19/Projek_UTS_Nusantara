@@ -20,49 +20,43 @@
   <a href="index.html#contact">Contact</a>
 </div>
 
-  <section class="search-section">
-    <div class="search-container">
-      <input type="text" id="searchInput" placeholder="Cari alat musik tradisional...">
-      <button class="search-btn" onclick="searchInstrument()">
-        <i class="fas fa-search"></i>
+<section class="search-section">
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Cari alat musik tradisional...">
+    <button class="search-btn" onclick="searchInstrument()">
+      <i class="fas fa-search"></i>
+    </button>
+
+    <div class="filter-wrapper">
+      <button id="filterToggle" class="filter-btn">
+        <i class="fas fa-filter"></i>
       </button>
+    </div>
+  </div>
 
-      <div class="filter-wrapper">
-        <button id="filterToggle" class="filter-btn">
-          <i class="fas fa-filter"></i>
-        </button>
+  <div id="filterPanel" class="filter-panel hidden">
+    <div class="filter-columns">
+
+      <div class="filter-col">
+        <h4>Provinsi</h4>
+        <div id="provinsiOptions"></div>
+      </div>
+
+      <div class="filter-col">
+        <h4>Cara Main</h4>
+        <div id="caraMainOptions"></div>
       </div>
     </div>
 
-    <div id="filterPanel" class="filter-panel hidden">
-      <div class="filter-columns">
-
-        <div class="filter-col">
-          <h4>Provinsi</h4>
-          <div id="provinsiOptions"></div>
-        </div>
-
-        <div class="filter-col">
-          <h4>Cara Main</h4>
-          <div id="caraMainOptions">
-            <label><input type="checkbox" value="dipetik"> Dipetik</label><br>
-            <label><input type="checkbox" value="dipukul"> Dipukul</label><br>
-            <label><input type="checkbox" value="ditiup"> Ditiup</label><br>
-            <label><input type="checkbox" value="digoyang"> Digoyang</label>
-          </div>
-        </div>
-      </div>
-
-      <div class="filter-actions">
-        <button id="applyFiltersBtn">Terapkan</button>
-      </div>
+    <div class="filter-actions">
+      <button id="applyFiltersBtn">Terapkan</button>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="results" class="results-section">
-  </section>
+<section id="results" class="results-section"></section>
 
-  <script src="../js/search.js"></script>
-  <script src="../js/filter.js"></script>
+<script src="../js/search.js"></script>
+<script src="../js/filter.js"></script>
 </body>
 </html>

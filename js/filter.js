@@ -44,12 +44,10 @@ function initFilters() {
     }
   });
 
-  // === EVENT CHECKBOX ===
   document.querySelectorAll("#provinsiOptions input, #caraMainOptions input")
     .forEach(cb => cb.addEventListener("change", applyFilters));
 }
 
-// === FILTERING LOGIC ===
 function applyFilters() {
   const keyword = document.getElementById("searchInput").value.toLowerCase();
 
@@ -70,7 +68,6 @@ function applyFilters() {
   displayResults(filtered);
 }
 
-// === TUNGGU DATA DARI search.js ===
 document.addEventListener("DOMContentLoaded", () => {
   const checkData = setInterval(() => {
     if (instruments && instruments.length > 0) {

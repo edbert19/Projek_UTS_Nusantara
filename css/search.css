@@ -10,8 +10,6 @@ body {
   color: white;
 }
 
-/* ===================== NAVBAR ===================== */
-/* ===================== NAVBAR (STYLE DARI INDEX) ===================== */
 .navbar {
   width: 100%;
   background: rgba(101, 45, 9, 0.95);
@@ -44,7 +42,7 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 24px; /* Ukuran font disamakan dengan index */
+  font-size: 24px; 
   transition: color 0.3s;
 }
 
@@ -52,12 +50,10 @@ body {
   color: #ffd27f;
 }
 
-/* Tambahkan ini agar konten tidak tertutup navbar */
 body {
     padding-top: 135px; 
 }
 
-/* ===================== LINK RESET ===================== */
 a {
   text-decoration: none;
   color: inherit;
@@ -71,21 +67,20 @@ a:active {
   box-shadow: none;
 }
 
-/* ===================== SEARCH SECTION ===================== */
 .search-section {
   margin-top: 120px;
   display: flex;
-  flex-direction: column; /* Membuat item tersusun atas-bawah */
-  align-items: center;   /* Membuat item berada di tengah */
+  flex-direction: column;
+  align-items: center; 
   justify-content: center;
   padding: 40px 20px;
-  gap: 20px; /* Memberi jarak antara search bar dan panel */
+  gap: 20px; 
 }
 
 .search-container {
   display: flex;
   align-items: center;
-  width: 100%; /* Diubah agar lebih fleksibel */
+  width: 100%;
   max-width: 700px;
   background: rgba(0,0,0,0.6);
   border-radius: 10px;
@@ -111,9 +106,9 @@ a:active {
   display: flex;
   align-items: center;
   gap: 6px;
-  background-color: transparent; /* Dibuat transparan */
+  background-color: transparent;
   border: none;
-  border-left: 1px solid rgba(255, 255, 255, 0.2); /* Garis pemisah */
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
   padding: 14px 18px;
   cursor: pointer;
@@ -124,15 +119,14 @@ a:active {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* ===================== FILTER ===================== */
 .filter-wrapper {
-  /* Tidak perlu margin lagi */
+
 }
 
 .filter-btn {
-  background: transparent; /* Dibuat transparan agar menyatu */
+  background: transparent; 
   border: none;
-  border-left: 1px solid rgba(255, 255, 255, 0.2); /* Garis pemisah */
+  border-left: 1px solid rgba(255, 255, 255, 0.2); 
   padding: 14px 18px;
   cursor: pointer;
   color: white;
@@ -146,13 +140,13 @@ a:active {
 
 .filter-panel {
   display: none;
-  padding: 25px 30px; /* Padding disesuaikan */
-  background: rgba(255, 255, 255, 0.98); /* Dibuat sedikit lebih solid */
+  padding: 25px 30px;
+  background: rgba(255, 255, 255, 0.98);
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
   z-index: 20;
   width: 100%;
-  max-width: 700px; /* Lebar sama dengan search bar */
+  max-width: 700px; 
   animation: fadeIn 0.25s ease-in-out;
   color: #333;
 }
@@ -163,7 +157,7 @@ a:active {
 
 .filter-columns {
   display: flex;
-  justify-content: space-around; /* Jarak lebih merata */
+  justify-content: space-around;
   gap: 40px;
 }
 
@@ -172,7 +166,7 @@ a:active {
 }
 
 .filter-col h4 {
-  margin-bottom: 15px; /* Jarak judul dengan opsi */
+  margin-bottom: 15px;
   font-size: 16px;
   font-weight: bold;
   color: #8b4513;
@@ -182,7 +176,7 @@ a:active {
 
 .filter-col label {
   display: block;
-  margin-bottom: 10px; /* Jarak antar checkbox */
+  margin-bottom: 10px;
   font-size: 15px;
   cursor: pointer;
   color: #444;
@@ -191,7 +185,7 @@ a:active {
 .filter-col input[type="checkbox"] {
   margin-right: 10px;
   accent-color: #8b4513;
-  transform: scale(1.1); /* Checkbox sedikit lebih besar */
+  transform: scale(1.1);
 }
 
 .filter-actions {
@@ -200,7 +194,7 @@ a:active {
 }
 
 .filter-actions button {
-  padding: 10px 20px; /* Tombol sedikit lebih besar */
+  padding: 10px 20px;
   background: #8b4513;
   color: white;
   border: none;
@@ -214,26 +208,22 @@ a:active {
   background: #a0522d;
 }
 
-/* ===================== ANIMASI ===================== */
 @keyframes fadeIn {
   from {opacity: 0; transform: translateY(-8px);}
   to {opacity: 1; transform: translateY(0);}
 }
 
-
-/* ===================== RESULT CARDS ===================== */
 .results-section {
   padding: 50px 40px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Tetap 4 kolom */
-  gap: 25px; /* Jarak antar kartu */
-  justify-items: center; /* Posisikan kartu di tengah kolom */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px; 
+  justify-items: center; 
 }
 
-/* Tambahkan/pastikan ini untuk card wrapper (untuk posisi bintang) */
 .card-wrapper {
   position: relative;
-  width: 260px; /* Pastikan ukuran wrapper sesuai card */
+  width: 260px; /
 }
 
 .card {
@@ -241,17 +231,17 @@ a:active {
   border-radius: 16px;
   padding: 16px;
   text-align: center;
-  width: 100%; /* Pastikan card mengisi penuh wrapper */
-  height: 320px; /* TINGGI TETAP untuk card, agar semua seragam */
+  width: 100%; 
+  height: 320px; 
   box-shadow: 0 6px 16px rgba(0,0,0,0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   backdrop-filter: blur(4px);
-  display: flex; /* Gunakan flexbox untuk tata letak internal card */
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Untuk mendorong content ke bawah */
+  justify-content: space-between; 
   align-items: center;
-  text-decoration: none; /* Pastikan link tidak punya garis bawah */
-  color: inherit; /* Warna teks tidak berubah */
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .card:hover {
@@ -260,24 +250,24 @@ a:active {
 }
 
 .card img {
-  width: 100%; /* Gambar mengisi lebar card */
-  height: 180px; /* TINGGI TETAP untuk gambar */
-  object-fit: cover; /* **SANGAT PENTING:** agar gambar memenuhi area tanpa merusak aspek rasio */
+  width: 100%; 
+  height: 180px; 
+  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
   transition: transform 0.3s ease;
 }
 
 .card:hover img {
-  transform: scale(1.03); /* Sedikit lebih kecil agar tidak terlalu menonjol */
+  transform: scale(1.03);
 }
 
 .card-content {
   padding: 12px 8px 4px 8px;
-  flex-grow: 1; /* Konten mengisi sisa ruang */
-  display: flex; /* Untuk menata h3 dan p */
+  flex-grow: 1; 
+  display: flex;
   flex-direction: column;
-  justify-content: center; /* Posisikan teks di tengah vertikal jika ruang cukup */
+  justify-content: center; 
 }
 
 .card-content h3 {
@@ -295,11 +285,10 @@ a:active {
   line-height: 1.4;
 }
 
-/* ===================== FAVORITE BUTTON ===================== */
 .favorite-btn {
   position: absolute;
-  top: 25px; /* Sesuaikan posisi vertikal */
-  right: 25px; /* Sesuaikan posisi horizontal */
+  top: 25px; 
+  right: 25px; 
   font-size: 24px;
   color: rgba(255, 255, 255, 0.8);
   text-shadow: 0 1px 3px rgba(0,0,0,0.7);
@@ -313,11 +302,9 @@ a:active {
 }
 
 .favorite-btn.favorited {
-  color: #ffc107; /* Warna emas */
+  color: #ffc107; 
 }
 
-/* ===================== RESPONSIVE ===================== */
-/* Pastikan media queries Anda juga tidak bentrok */
 @media (max-width: 1024px) {
   .results-section {
     grid-template-columns: repeat(3, 1fr);
@@ -329,7 +316,7 @@ a:active {
     grid-template-columns: repeat(2, 1fr);
   }
   .card-wrapper {
-    width: 280px; /* Bisa disesuaikan untuk layar lebih kecil */
+    width: 280px; 
   }
 }
 
@@ -339,7 +326,7 @@ a:active {
     padding: 20px;
   }
   .card-wrapper {
-    width: 90%; /* Hampir memenuhi lebar layar */
-    max-width: 90%; /* Batasan maksimum */
+    width: 90%; 
+    max-width: 90%; 
   }
 }

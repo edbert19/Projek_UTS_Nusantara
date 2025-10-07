@@ -1,4 +1,3 @@
-/* ==================== GENERAL & BODY ==================== */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,6 @@ body {
   color: white;
 }
 
-/* ==================== NAVBAR ==================== */
 .navbar {
   width: 100%;
   background: rgba(101, 45, 9, 0.95); 
@@ -26,7 +24,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 60px; /* Jarak antar menu */
+  gap: 60px; 
   z-index: 1000;
 }
 
@@ -56,7 +54,6 @@ body {
   color: #ffd27f; 
 }
 
-/* ==================== HERO SECTION (VIDEO) ==================== */
 .hero {
   position: relative;
   height: 100vh;
@@ -95,7 +92,6 @@ body {
   z-index: 1; 
 }
 
-/* ==================== SEARCH SECTION (DI BAWAH HERO) ==================== */
 .search-section {
   padding: 50px 20px;
   display: flex;
@@ -146,40 +142,34 @@ body {
   font-size: 16px;
 }
 
-/* ==================== PETA SECTION ==================== */
 .peta-section {
-  padding: 80px 20px; /* Memberi jarak atas-bawah */
+  padding: 80px 20px; 
 }
 
-/* Ini adalah box coklat terang di belakang peta */
-/* Kode Baru yang Disesuaikan */
-/* Kode Baru yang Lebih Pas */
 .peta-container {
-  max-width: 750px; /* PERKECIL: Lebar maksimal box dibuat lebih ramping */
+  max-width: 750px;
   margin: 0 auto;
   background-color: #d2a679;
-  padding: 10px 25px; /* PERKECIL: Jarak di dalam box dibuat seragam dan lebih kecil */
+  padding: 10px 25px; 
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-/* Ganti kode .peta-inner Anda dengan ini */
 .peta-inner {
   background-color: transparent;
   padding: 0;
-  display: flex; /* Tambahan untuk centering */
-  justify-content: center; /* Tambahan untuk centering */
-  align-items: center; /* Tambahan untuk centering */
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
 }
 
 object#petaIndonesia {
-  width: 100%; /* Lebar peta mengisi container */
+  width: 100%; 
   height: auto;
   display: block;
   transform: scale(1.1);
 }
 
-/* ==================== DESKRIPSI MUSIK SECTION ==================== */
 .deskripsi-musik {
   padding: 40px 20px;
   display: flex;
@@ -195,10 +185,10 @@ object#petaIndonesia {
 }
 
 .deskripsi-box {
-  background: rgba(101, 45, 9, 0.95); /* Warna box sama dengan About Us */
+  background: rgba(101, 45, 9, 0.95); 
   padding: 30px 40px;
   border-radius: 15px;
-  max-width: 900px; /* Lebar sama dengan About Us */
+  max-width: 900px; 
   width: 100%;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
@@ -207,15 +197,14 @@ object#petaIndonesia {
   font-size: 18px;
   line-height: 1.8;
   color: #f1f1f1;
-  text-align: justify; /* Teks dibuat rata kanan-kiri agar rapi */
+  text-align: justify;
   margin-bottom: 15px;
 }
 
 .deskripsi-box p:last-child {
-  margin-bottom: 0; /* Hapus margin bawah di paragraf terakhir */
+  margin-bottom: 0;
 }
 
-/* ==================== ABOUT US SECTION ==================== */
 .about {
   padding: 40px 20px;
   display: flex;
@@ -223,16 +212,14 @@ object#petaIndonesia {
   align-items: center;
 }
 
-/* Judul "Tentang Kami" tanpa box */
 .about h2 {
   font-size: 36px;
   margin-bottom: 30px;
   color: #ffd27f;
 }
 
-/* Box gelap untuk paragraf tentang kami */
 .about-box {
-  background: rgba(101, 45, 9, 0.95); /* Box coklat tua */
+  background: rgba(101, 45, 9, 0.95); 
   padding: 30px 40px;
   border-radius: 15px;
   max-width: 900px;
@@ -244,22 +231,18 @@ object#petaIndonesia {
   font-size: 18px;
   line-height: 1.8;
   color: #f1f1f1;
-  text-align: center; /* Teks rata tengah */
+  text-align: center;
   margin-bottom: 15px;
 }
 
-/* ==================== FOOTER / CONTACT SECTION (VERSI LEBAR PENUH) ==================== */
 .contact {
-  padding: 80px 0; /* Hapus padding kiri-kanan dari section */
+  padding: 80px 0; 
   background: transparent;
 }
 
-/* Container utama untuk footer */
 .footer-container {
-  /* max-width dan margin dihapus agar lebar penuh */
-  background: rgba(101, 45, 9, 0.95); /* Warna box dalam (coklat tua) */
-  padding: 40px 60px; /* Beri padding kiri-kanan agar konten tidak menempel */
-  /* Trik untuk membuat frame/bingkai coklat terang */
+  background: rgba(101, 45, 9, 0.95);
+  padding: 40px 60px; 
   box-shadow: 0 0 0 15px #d2a679;
 }
 
@@ -283,7 +266,7 @@ object#petaIndonesia {
 
 .footer-divider {
   width: 90%;
-  max-width: 800px; /* Beri lebar maksimum agar tidak terlalu panjang di layar besar */
+  max-width: 800px;
   margin: 25px auto;
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -331,10 +314,9 @@ object#petaIndonesia {
   text-align: center;
 }
 
-/* Pastikan warna ikon Instagram dan Email sesuai */
 .contact-person a .fab.fa-instagram,
 .contact-person a .fas.fa-envelope {
-  color: #ffd27f; /* Warna emas/kuning kecoklatan */
+  color: #ffd27f;
 }
 
 .footer-copy {
@@ -345,7 +327,6 @@ object#petaIndonesia {
   text-align: center;
 }
 
-/* ==================== DESKRIPSI GANDA SECTION ==================== */
 .deskripsi-ganda {
   padding: 60px 40px;
 }
@@ -365,16 +346,14 @@ object#petaIndonesia {
 .deskripsi-content {
   display: flex;
   align-items: center;
-  gap: 50px; /* Jarak antara teks dan gambar */
+  gap: 50px; 
 }
 
-/* Mengatur kotak teks dan gambar agar lebarnya sama */
 .deskripsi-teks,
 .deskripsi-gambar {
-  flex: 1; /* flex: 1 akan membuat keduanya berbagi ruang secara merata */
+  flex: 1; 
 }
 
-/* Style untuk kotak teks (Isi) */
 .deskripsi-teks {
   background: rgba(101, 45, 9, 0.95);
   padding: 35px;
@@ -385,24 +364,20 @@ object#petaIndonesia {
   text-align: justify;
 }
 
-/* Style untuk gambar */
 .deskripsi-gambar img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 20px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+
 }
 
-/* Kunci untuk membalik urutan: gambar di kiri, teks di kanan */
 .deskripsi-item.reverse .deskripsi-content {
   flex-direction: row-reverse;
 }
 
-/* Garis pemisah antar deskripsi */
 .deskripsi-divider {
-  max-width: 1200px;
-  margin: 60px auto;
+  max-width: 1400px; 
+  margin: 100px auto;
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 4px solid rgba(255, 255, 255, 0.2);
 }

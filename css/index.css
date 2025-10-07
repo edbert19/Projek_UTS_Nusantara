@@ -143,32 +143,39 @@ body {
 }
 
 .peta-section {
-  padding: 80px 20px; 
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .peta-container {
   max-width: 750px;
-  margin: 0 auto;
+  width: 100%;
   background-color: #d2a679;
-  padding: 10px 25px; 
+  padding: 10px 25px;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
 }
 
 .peta-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   background-color: transparent;
   padding: 0;
-  display: flex; 
-  justify-content: center;
-  align-items: center; 
 }
 
 object#petaIndonesia {
-  width: 100%; 
+  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
-  transform: scale(1.1);
+  margin: 0 auto; 
 }
+
 
 .deskripsi-musik {
   padding: 40px 20px;
@@ -459,6 +466,10 @@ object#petaIndonesia {
 }
 
 object#petaIndonesia {
-  transform: none; 
+  width: 100%;
+  transform: scale(0.9);
+  transform-origin: center;
 }
+
 }
+

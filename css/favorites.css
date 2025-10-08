@@ -21,8 +21,11 @@
 }
 
 .no-favorites-message {
+  grid-column: 1 / -1; 
+  text-align: center;
   font-size: 20px;
   color: #ccc;
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {

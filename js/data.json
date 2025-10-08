@@ -4,7 +4,7 @@
     "name": "Sampe",
     "origin": "Kalimantan Timur",
     "image": "../images/sampe.jpg",
-    "history": "Sampe adalah alat musik petik tradisional khas suku Dayak Kenyah. Biasanya dimainkan dalam upacara adat, ritual, dan hiburan masyarakat Dayak.",
+    "history": "Sampe merupakan alat musik petik tradisional suku Dayak Kenyah di Kalimantan Timur yang telah ada sejak zaman dahulu. Alat ini sering digunakan dalam ritus adat, upacara, serta hiburan komunitas. Sampe juga menjadi media penyampaian kisah leluhur, nyanyian pujian, dan syair tradisional. Bentuk dan ukiran kayunya biasanya dihias dengan motif khas Dayak yang mencerminkan identitas budaya lokal.",
     "meaning": "Melambangkan keharmonisan manusia dengan alam dan budaya Dayak.",
     "howToPlay": "Dipetik",
     "howToPlayDetail": "Sampe dimainkan dengan cara dipetik menggunakan jari, mirip gitar. Pemain biasanya duduk dan memegang sampe di pangkuan, lalu memetik dawai sesuai melodi."
@@ -14,7 +14,7 @@
     "name": "Gendang Dayak",
     "origin": "Kalimantan Barat",
     "image": "../images/gendang_dayak.jpg",
-    "history": "Gendang Dayak digunakan dalam berbagai ritual adat, tarian, dan acara komunitas suku Dayak.",
+    "history": "Gendang Dayak adalah instrumen perkusi penting dalam budaya suku Dayak di Kalimantan Barat yang telah digunakan secara turun-temurun. Alat ini dimainkan dalam upacara adat, tarian, ritual panen, penyembuhan, dan kegiatan komunitas sebagai penggerak ritme dan pemersatu musikal. Bunyi gendang dipercaya memiliki kekuatan untuk menghubungkan manusia dengan leluhur serta alam gaib. Dalam pertunjukan, pukulan gendang membentuk pola irama khas yang menunjang ekspresi budaya lokal.",
     "meaning": "Suara gendang dipercaya memanggil roh leluhur dan menjaga semangat masyarakat.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Gendang Dayak dimainkan dengan cara dipukul menggunakan tangan atau stik kayu. Ritme pukulan biasanya mengikuti pola tarian atau nyanyian adat."
@@ -24,7 +24,7 @@
     "name": "Gamelan Banjar",
     "origin": "Kalimantan Selatan",
     "image": "../images/gamelan_banjar.jpg",
-    "history": "Gamelan Banjar adalah ensambel musik tradisional yang dipengaruhi gamelan Jawa, digunakan untuk upacara adat dan hiburan.",
+    "history": "Gamelan Banjar adalah ensambel musik tradisional Banjar yang berkembang melalui adaptasi unsur-unsur gamelan Jawa dengan karakter lokal. Alat musiknya termasuk gong, kendang, dan gong kecil serta instrumen tambahan khas Banjar. Sejak zaman kerajaan hingga masyarakat umum, gamelan ini digunakan dalam upacara adat, hiburan keraton, dan pentas seni rakyat. Gamelan Banjar melambangkan kebersamaan, harmoni, dan ekspresi musikal khas budaya Banjar.",
     "meaning": "Simbol kebersamaan dan keharmonisan masyarakat Banjar.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Alat gamelan Banjar dimainkan secara kolektif dengan cara dipukul menggunakan pemukul kayu berlapis kain atau karet."
@@ -34,7 +34,7 @@
     "name": "Serunai Banjar",
     "origin": "Kalimantan Selatan",
     "image": "../images/serunai_banjar.jpg",
-    "history": "Serunai Banjar adalah alat musik tiup yang biasanya dimainkan dalam pesta rakyat dan upacara adat Banjar.",
+    "history": "Serunai Banjar adalah alat musik tiup tradisional masyarakat Banjar yang telah lama digunakan dalam upacara adat dan pertunjukan rakyat. Alat ini mengiringi tarian, nyanyian, dan prosesi adat untuk menambah suasana meriah. Dalam budaya lokal, bunyi serunai dianggap mampu menyuarakan emosi seperti kegembiraan atau kesedihan. Serunai Banjar sering dipadukan bersama gamelan dan instrumen tradisional lain agar melodi menjadi lebih beragam dan hidup.",
     "meaning": "Melambangkan kegembiraan dan semangat dalam perayaan.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Serunai dimainkan dengan cara ditiup sambil menutup lubang nada dengan jari untuk menghasilkan melodi khas."
@@ -44,7 +44,7 @@
     "name": "Jatung Utang",
     "origin": "Kalimantan Tengah",
     "image": "../images/jatung_utang.jpg",
-    "history": "Jatung Utang adalah alat musik perkusi tradisional Dayak, digunakan untuk mengiringi tarian dan ritual adat.",
+    "history": "Jatung Utang adalah instrumen perkusi tradisional Dayak yang digunakan dalam ritual adat, tari, dan acara komunitas di Kalimantan Tengah. Alat ini dimainkan secara kolektif untuk menciptakan pola irama yang bergelombang dan dinamis. Jatung Utang menjadi simbol komunikasi spiritual dan kebersamaan antar pemain, serta menyertai ritual sebagai penguat suasana. Dari generasi ke generasi, bentuk dan dekorasi alat ini tetap dijaga dan diwariskan sebagai bagian penting dari warisan budaya setempat.",
     "meaning": "Melambangkan komunikasi spiritual dan kebersamaan dalam komunitas.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Alat musik ini dipukul menggunakan alat pemukul kayu, biasanya dimainkan berkelompok untuk menghasilkan irama yang hidup."
@@ -54,7 +54,7 @@
     "name": "Kalang Kupak",
     "origin": "Kalimantan Selatan",
     "image": "../images/kalang_kupak.jpg",
-    "history": "Kalang Kupak adalah alat musik pukul tradisional yang digunakan untuk hiburan rakyat dan pertunjukan seni Banjar.",
+    "history": "Kalang Kupak adalah alat musik pukul tradisional masyarakat Banjar yang digunakan untuk hiburan rakyat dan pertunjukan seni desa. Alat ini memproduksi bunyi ritmis yang mengiringi lagu dan tarian Banjar dalam suasana santai maupun resmi. Dalam pentas budaya, kalang kupak sering dijadikan simbol kesederhanaan dan kekayaan musik rakyat. Pembuatan dan permainan kalang kupak tetap dilestarikan di kalangan seniman lokal sebagai identitas musik Banjar.",
     "meaning": "Mewakili keceriaan dan identitas budaya Banjar.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Dimainkan dengan memukul bagian badan alat menggunakan telapak tangan atau stik kayu."
@@ -64,7 +64,7 @@
     "name": "Panting",
     "origin": "Kalimantan Selatan",
     "image": "../images/panting.jpg",
-    "history": "Panting adalah alat musik petik tradisional khas Banjar yang bentuknya mirip gitar kecil.",
+    "history": "Panting adalah alat musik petik khas Banjar yang bentuknya menyerupai gitar kecil dan telah digunakan dalam lingkungan musik rakyat. Di masa lalu, panting mengiringi lagu-lagu tradisional, syair, dan nyanyian pujian di komunitas Banjar. Alat ini membantu menyuarakan lirik lokal dengan skala musik khas Banjar. Hingga kini, panting tetap digunakan dalam pertunjukan desa, festival budaya, dan dijaga keberadaannya oleh penggerak seni lokal.",
     "meaning": "Identitas musik Banjar yang ceria dan penuh semangat.",
     "howToPlay": "Dipetik",
     "howToPlayDetail": "Panting dimainkan dengan cara dipetik menggunakan jari atau plektrum, biasanya untuk mengiringi lagu Banjar."
@@ -74,7 +74,7 @@
     "name": "Kolintang",
     "origin": "Sulawesi Utara",
     "image": "../images/kolintang.jpg",
-    "history": "Kolintang adalah alat musik pukul dari kayu khas Minahasa.",
+    "history": "Kolintang berasal dari Minahasa, Sulawesi Utara, dan telah lama menjadi alat musik masyarakat setempat dalam upacara adat dan pesta rakyat. Nama ‘kolintang’ konon berasal dari onomatope nada-nada kayu: “ko‑lin‑tang”. Setelah masa kolonial, kolintang mengalami pembakuan tangga nada dan teknik permainan agar bisa dimainkan dalam grup atau orkestra. Kini kolintang menjadi instrumen yang dikenal secara nasional, mulai diajarkan di sekolah musik hingga dipentaskan di panggung budaya nusantara.",
     "meaning": "Melambangkan kebersamaan dan suka cita masyarakat Minahasa.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Bilah kayu kolintang dipukul dengan stik khusus untuk menghasilkan nada berbeda, dimainkan secara ansambel."
@@ -84,7 +84,7 @@
     "name": "Ganda",
     "origin": "Sulawesi Selatan",
     "image": "../images/ganda.jpg",
-    "history": "Ganda adalah alat musik tradisional Sulawesi Selatan.",
+    "history": "Ganda adalah alat musik tradisional Sulawesi Selatan yang dimainkan dalam upacara adat, pertunjukan rakyat, dan kegiatan komunitas. Alat ini menghasilkan bunyi ritmis ketika dipukul, mendampingi instrumen lain atau vokal. Ganda dianggap sebagai unsur pelengkap yang memperkaya tekstur musik lokal. Pemainnya menyesuaikan pola pukulan agar sesuai dengan tarian atau lagu adat setempat, menjaga dinamika musik tradisional.",
     "meaning": "Mewakili keharmonisan dan keceriaan masyarakat setempat.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Memukul kedua sisi ganda dengan tangan atau stik untuk menghasilkan irama."
@@ -94,7 +94,7 @@
     "name": "Pui-pui",
     "origin": "Sulawesi Selatan",
     "image": "../images/pui_pui.jpg",
-    "history": "Pui-pui adalah alat musik tiup khas Sulawesi Selatan.",
+    "history": "Pui-pui adalah alat tiup tradisional dari Sulawesi Selatan yang digunakan dalam acara adat dan perayaan rakyat. Suara pui-pui memberi warna melodi yang ringan dan menyatu dengan irama lokal. Dalam beberapa komunitas, pui-pui juga digunakan untuk memanggil perhatian atau mengiringi lagu rakyat desa. Upaya pelestarian terus dilakukan agar generasi muda tetap mengenali bunyi khas pui-pui dalam pertunjukan kesenian lokal.",
     "meaning": "Melambangkan ketenangan dan kebahagiaan dalam masyarakat.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Pui-pui dimainkan dengan cara ditiup sambil menutup lubang nada dengan jari untuk menciptakan melodi."
@@ -104,8 +104,8 @@
     "name": "Keso-keso",
     "origin": "Sulawesi Selatan",
     "image": "../images/keso_keso.jpg",
-    "history": "Keso-keso adalah alat musik gesek Bugis-Makassar.",
-    "meaning": "Simbol kegembiraan dan solidaritas masyarakat Bugis-Makassar.",
+    "history": "Keso-keso adalah alat musik gesek tradisional masyarakat Bugis-Makassar yang telah digunakan dalam pertunjukan adat dan iringan lagu tradisional. Meskipun instrumen gesek lebih jarang di daerah ini, keso-keso dipertahankan sebagai simbol ekspresi melodis lokal. Cara memainkannya dengan busur gesek menciptakan nada sayu dan khas yang sering menyatu dengan vokal atau alat musik lain dalam pertunjukan budaya.",
+    "meaning": "Simbol kegembiraan dan solidaritas masyarakat Bugis‑Makassar.",
     "howToPlay": "Digesek",
     "howToPlayDetail": "Keso-keso dimainkan dengan busur gesek, mirip biola, menghasilkan melodi khas."
   },
@@ -114,7 +114,7 @@
     "name": "Popondi",
     "origin": "Sulawesi Barat",
     "image": "../images/popondi.jpg",
-    "history": "Popondi adalah alat musik tradisional Sulawesi Barat yang biasanya dimainkan untuk mengiringi tarian daerah.",
+    "history": "Popondi adalah alat musik pukul tradisional Sulawesi Barat yang biasanya digunakan untuk mengiringi tarian dan acara komunitas. Alat ini menghasilkan irama yang menguatkan suasana pertunjukan daerah. Di masyarakat lokal, popondi sering dipakai dalam ritual adat dan pesta desa. Pelestari kesenian terus mempromosikan popondi melalui pentas budaya agar tetap dikenal generasi selanjutnya.",
     "meaning": "Mewakili keceriaan dan tradisi lokal.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Popondi dimainkan dengan cara dipukul menggunakan tangan atau alat pemukul kayu."
@@ -124,7 +124,7 @@
     "name": "Alosu",
     "origin": "Sulawesi Selatan",
     "image": "../images/alosu.jpg",
-    "history": "Alosu adalah alat musik pukul tradisional Sulawesi Selatan.",
+    "history": "Alosu adalah alat musik pukul tradisional yang biasa digunakan dalam acara adat dan hiburan masyarakat Sulawesi Selatan. Bunyi alosu melengkapi musik tarian dan iringan lagu lokal dengan pola pukulan yang sederhana namun efektif. Para pemain alosu menyesuaikan gaya pukulan untuk menyatu dengan gerak tarian setempat. Alat ini tetap dijaga dalam pentas seni dan kegiatan budaya sebagai bagian dari warisan budaya lokal.",
     "meaning": "Melambangkan harmoni dan kebersamaan.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Dimainkan dengan memukul bagian alat menggunakan telapak tangan, ritme disesuaikan dengan tarian."
@@ -134,7 +134,7 @@
     "name": "Pare'e",
     "origin": "Sulawesi Barat",
     "image": "../images/paree.jpg",
-    "history": "Pare'e adalah alat musik tradisional Sulawesi Barat.",
+    "history": "Pare’e adalah instrumen pukul tradisional masyarakat Sulawesi Barat yang telah lama mengiringi acara kesenian lokal. Alat ini dipakai dalam pertunjukan lagu rakyat, festival desa, serta kegiatan adat. Pola pukulannya disesuaikan dengan jenis tarian atau lagu daerah. Untuk menjaga identitas budaya, pare’e juga diperkenalkan di sekolah seni dan pertunjukan kebudayaan lokal.",
     "meaning": "Simbol kegembiraan dan semangat komunitas.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Pare'e dimainkan dengan dipukul menggunakan tangan atau stik kayu."
@@ -144,7 +144,7 @@
     "name": "Gambus Sulawesi",
     "origin": "Sulawesi Selatan",
     "image": "../images/gambus_sulawesi.jpg",
-    "history": "Gambus adalah alat musik petik dari Sulawesi Selatan dengan pengaruh Arab.",
+    "history": "Gambus Sulawesi adalah adaptasi alat musik petik dari tradisi Arab yang dibawa ke Nusantara dan disesuaikan dengan kultur musik lokal di Sulawesi Selatan. Dalam komunitas Bugis dan Makassar, gambus digunakan untuk mengiringi syair, lagu keagamaan, dan lagu rakyat. Penggunaan gambus memperkaya warna musik daerah, menjadi simbol keselarasan antara budaya luar dan tradisi lokal. Sampai sekarang, gambus masih aktif dimainkan di grup seni tradisional dan pertunjukan daerah.",
     "meaning": "Mewakili identitas musik daerah dan keakraban.",
     "howToPlay": "Dipetik",
     "howToPlayDetail": "Dawai gambus dipetik menggunakan jari atau plektrum untuk mengiringi lagu-lagu."
@@ -154,7 +154,7 @@
     "name": "Sasando",
     "origin": "Nusa Tenggara Timur",
     "image": "../images/sasando.jpg",
-    "history": "Sasando adalah alat musik petik khas Pulau Rote.",
+    "history": "Sasando adalah alat musik petik tradisional khas Pulau Rote, Nusa Tenggara Timur, yang terdiri dari dawai dan daun lontar sebagai resonator. Menurut legenda lokal, sasando diciptakan dari inspirasi alam setempat. Alat ini digunakan dalam upacara adat, pesta rakyat, dan pertunjukan budaya. Seiring waktu, sasando makin dikenal di tingkat nasional sebagai simbol musik NTT dan menjadi bagian dari promosi kekayaan budaya Indonesia.",
     "meaning": "Melambangkan harmoni, keindahan, dan identitas budaya Rote.",
     "howToPlay": "Dipetik",
     "howToPlayDetail": "Sasando dimainkan dengan memetik dawai menggunakan jari, resonansi diperkuat daun lontar."
@@ -164,7 +164,7 @@
     "name": "Gong Waning",
     "origin": "Nusa Tenggara Timur",
     "image": "../images/gong_waning.jpg",
-    "history": "Gong Waning adalah alat musik pukul khas Flores, digunakan dalam upacara adat dan pesta rakyat.",
+    "history": "Gong Waning adalah gong tradisional khas Flores, Nusa Tenggara Timur, yang digunakan dalam upacara adat, pesta rakyat, dan ritual keagamaan. Bunyi gong waning dianggap suci dan dipercaya bisa memanggil roh leluhur atau menjaga keharmonisan komunitas. Ukuran, bentuk, dan teknik pemukulannya khas tiap daerah. Dalam kesenian lokal, gong waning masih sering dipakai sebagai bagian dari orkestra tradisional dan dipertunjukkan dalam festival budaya Flores.",
     "meaning": "Simbol kebersamaan dan pemanggil roh leluhur.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Dimainkan dengan memukul permukaan gong menggunakan alat pemukul kayu berlapis kain."
@@ -174,7 +174,7 @@
     "name": "Foy Doa",
     "origin": "Nusa Tenggara Timur",
     "image": "../images/foy_doa.jpg",
-    "history": "Foy Doa adalah suling ganda dari Flores, terdiri dari dua pipa bambu dimainkan bersamaan.",
+    "history": "Foy Doa adalah alat musik suling ganda khas Flores, di mana dua pipa bambu dimainkan secara bersamaan. Dalam tradisi lokal, pemain meniup kedua pipa sekaligus untuk menghasilkan harmoni unik antara melodi dan ritme. Foy Doa dipakai dalam acara adat, upacara komunitas, dan perayaan budaya. Alat ini menjadi lambang keseimbangan musikal dan keberagaman tradisi musik di daerah Flores.",
     "meaning": "Melambangkan keseimbangan dan kebersamaan dalam harmoni.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Pemain meniup dua suling sekaligus, sambil mengatur lubang nada dengan jari untuk menciptakan harmoni."
@@ -184,7 +184,7 @@
     "name": "Gendang Beleq",
     "origin": "Nusa Tenggara Barat",
     "image": "../images/gendang_beleq.jpg",
-    "history": "Gendang Beleq adalah gendang besar khas Lombok, dimainkan dalam upacara pernikahan dan penyambutan tamu.",
+    "history": "Gendang Beleq adalah alat musik tradisional Sasak Lombok yang disebut ‘gendang besar’ karena ukurannya yang besar dan jumlah pemainnya banyak. Dulu digunakan untuk upacara pernikahan, penyambutan tamu, dan parade budaya. Kolektifitas pemain, dinamika ritme, serta koreografi pengiring menjadikan gendang beleq sebagai simbol kebesaran dan semangat Sasak. Kini gendang beleq juga menjadi daya tarik budaya NTB di kancah nasional dan internasional.",
     "meaning": "Melambangkan semangat, kebesaran, dan sukacita masyarakat Sasak.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Gendang dimainkan dengan cara dipukul menggunakan tangan atau pemukul, sering dimainkan sambil diarak."
@@ -194,7 +194,7 @@
     "name": "Serunai Lombok",
     "origin": "Nusa Tenggara Barat",
     "image": "../images/serunai_lombok.jpg",
-    "history": "Serunai Lombok adalah alat musik tiup dari Lombok yang dimainkan dalam upacara adat dan kesenian tradisional.",
+    "history": "Serunai Lombok adalah instrumen tiup tradisional masyarakat Sasak yang digunakan dalam upacara adat, kesenian desa, dan hiburan. Suara serunai Lombok menyatu dengan tarian lokal dan musik daerah. Instrumen ini mempertahankan ciri khas nada melayu-sasak dan tetap dimainkan dalam festival budaya Lombok. Kehadirannya memberi warna melodi unik dalam repertoar musik tradisional setempat.",
     "meaning": "Melambangkan kegembiraan dan komunikasi spiritual.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Serunai dimainkan dengan cara ditiup sambil menekan lubang nada untuk menghasilkan melodi."
@@ -204,7 +204,7 @@
     "name": "Suling Bambu NTB",
     "origin": "Nusa Tenggara Barat",
     "image": "../images/suling_bambu_ntb.jpg",
-    "history": "Suling bambu khas NTB digunakan dalam musik tradisional dan pengiring tari.",
+    "history": "Suling bambu NTB adalah alat musik tiup bambu yang digunakan oleh masyarakat Lombok untuk mengiringi tari, nyanyian tradisional, dan pertunjukan budaya. Karena bahan bambunya mudah didapat dan menghasilkan suara lembut, suling bambu sangat cocok untuk melodi daerah. Pelestarian instrumen ini dilakukan melalui pengajaran di sekolah seni serta pertunjukan lokal agar tetap lestari dalam budaya musik tradisional Lombok.",
     "meaning": "Mencerminkan kelembutan dan ketenangan jiwa.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Suling dimainkan dengan ditiup pada ujungnya sambil menutup lubang nada sesuai melodi."
@@ -214,7 +214,7 @@
     "name": "Ceng-Ceng",
     "origin": "Bali",
     "image": "../images/cengceng.jpg",
-    "history": "Ceng-Ceng adalah simbal kecil dari Bali, dimainkan dalam gamelan untuk ritme cepat.",
+    "history": "Ceng-Ceng adalah simbal kecil khas gamelan Bali yang telah lama berperan dalam menyemarakkan tekstur irama. Bunyi cepat dan tajam ceng-ceng memperkuat ritme gamelan, menambahkan aksen musik. Dalam pertunjukan gamelan di pura dan acara budaya Bali, ceng-ceng menjadi bagian tak terpisahkan yang memperkaya variasi suara. Penggunaan ceng-ceng terus dipertahankan dalam pentas seni Bali kontemporer sebagai lambang energi musikal.",
     "meaning": "Melambangkan energi dan semangat dalam kesenian Bali.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Ceng-ceng dimainkan dengan cara membenturkan dua simbal kecil secara ritmis."
@@ -224,7 +224,7 @@
     "name": "Rindik",
     "origin": "Bali",
     "image": "../images/rindik.jpg",
-    "history": "Rindik adalah alat musik bambu Bali, dimainkan pada hiburan rakyat dan seni tradisi.",
+    "history": "Rindik adalah alat musik bambu tradisional Bali yang berkembang di pedesaan sebagai hiburan rakyat dan pengiring tari. Bilah bambu rindik dipukul dengan alat pemukul kecil untuk menghasilkan nada lembut dan merdu. Dalam festival budaya Bali dan pertunjukan kesenian rakyat, rindik sering dipakai sebagai latar musik ambient yang menambah suasana santai. Keberadaannya terus dijaga sebagai simbol keharmonisan tradisi musik Bali.",
     "meaning": "Simbol keharmonisan dan keceriaan.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Bilah bambu dipukul dengan alat pemukul kecil untuk menghasilkan nada merdu."
@@ -234,7 +234,7 @@
     "name": "Kendang Bali",
     "origin": "Bali",
     "image": "../images/kendang_bali.jpg",
-    "history": "Kendang Bali digunakan untuk mengatur tempo dalam gamelan Bali.",
+    "history": "Kendang Bali adalah alat musik ritmis utama dalam orkestra gamelan Bali, berfungsi sebagai pemimpin irama. Sejak zaman kerajaan, kendang telah digunakan dalam upacara pura, tari barong, dan pertunjukan gamelan klasik. Pemain kendang memainkan pola tangan kanan dan kiri secara kontras untuk mengendalikan dinamika ansambel. Di masa modern, kendang Bali juga dikombinasikan dalam karya musik lintas genre untuk menjaga relevansi tradisi.",
     "meaning": "Simbol kepemimpinan dan pengatur harmoni.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Kendang dimainkan dengan kedua tangan, tangan kanan dan kiri menghasilkan pola berbeda."
@@ -244,7 +244,7 @@
     "name": "Gangsa",
     "origin": "Bali",
     "image": "../images/gangsa.jpg",
-    "history": "Gangsa adalah instrumen bilah logam dalam gamelan Bali.",
+    "history": "Gangsa adalah instrumen bilah logam dalam gamelan Bali yang memainkan melodi utama dan hiasan. Warna bunyinya yang jernih dan cepat membuat gangsa menjadi elemen penting dalam struktur harmoni gamelan. Dari masa klasik Bali hingga era modern, gangsa tetap digunakan dalam pertunjukan pura, festival seni, dan pentas budaya. Instrumen ini mencerminkan keindahan bunyi berlapis dan keselarasan suara dalam orkestra Bali.",
     "meaning": "Melambangkan keindahan bunyi yang berlapis.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Gangsa dipukul dengan pemukul kayu berlapis karet, dimainkan cepat untuk melodi utama."
@@ -254,7 +254,7 @@
     "name": "Rebab Bali",
     "origin": "Bali",
     "image": "../images/rebab_bali.jpg",
-    "history": "Rebab Bali adalah alat musik gesek yang digunakan dalam gamelan Bali.",
+    "history": "Rebab Bali adalah alat musik gesek yang menambah elemen melodi dan ekspresi dalam gamelan Bali. Alat ini dipercaya diperkenalkan melalui interaksi budaya dari luar, lalu diadaptasi ke tradisi Bali. Rebab umumnya dipakai dalam gamelan semar pegulingan dan kebyar, menyuarakan melodi lembut yang menyatu dengan instrumen logam. Saat ini rebab masih dipertahankan dalam orkestra gamelan sebagai medium emosional dan musikal.",
     "meaning": "Simbol kesyahduan dan ekspresi mendalam.",
     "howToPlay": "Digesek",
     "howToPlayDetail": "Dawai rebab digesek dengan busur khusus, menghasilkan suara melankolis."
@@ -264,7 +264,7 @@
     "name": "Suling Bali",
     "origin": "Bali",
     "image": "../images/suling_bali.jpg",
-    "history": "Suling Bali adalah alat musik tiup dari bambu, digunakan dalam berbagai pertunjukan gamelan.",
+    "history": "Suling Bali adalah instrumen tiup bambu yang digunakan dalam gamelan dan musik tradisional Bali. Sejak era kuno, suling membantu melodi atas dan mengiringi tarian, ritual, dan pertunjukan seni. Bunyi suling Bali yang lembut memberi warna suara yang tenang dan menenangkan. Dalam perkembangan modern, suling Bali juga digunakan dalam eksperimen musik kontemporer sambil mempertahankan struktur tradisional.",
     "meaning": "Suara suling dianggap membawa kedamaian.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Suling dimainkan dengan cara ditiup sambil menutup lubang nada sesuai melodi gamelan."
@@ -274,7 +274,7 @@
     "name": "Genggong",
     "origin": "Bali",
     "image": "../images/genggong.jpg",
-    "history": "Genggong adalah alat musik mulut dari Bali yang dimainkan dengan menarik tali pada lidah bambu.",
+    "history": "Genggong adalah instrumen mulut tradisional Bali yang dimainkan melalui getaran lidah bambu dengan tali. Alat ini sering muncul dalam pertunjukan rakyat dan hiburan spontan di desa. Suaranya unik dan jenaka, sering digunakan untuk dialog musikal humor atau improvisasi lokal. Genggong tetap dipertahankan dalam pentas budaya Bali sebagai simbol kreativitas musik rakyat sederhana.",
     "meaning": "Melambangkan spontanitas dan humor rakyat Bali.",
     "howToPlay": "Digetarkan",
     "howToPlayDetail": "Genggong ditempel di mulut, lalu lidah bambunya digetarkan dengan tali untuk menghasilkan bunyi unik."
@@ -284,18 +284,17 @@
     "name": "Jegog",
     "origin": "Bali",
     "image": "../images/jegog.jpg",
-    "history": "Jegog adalah gamelan bambu besar khas Jembrana, Bali.",
+    "history": "Jegog adalah gamelan bambu besar khas Jembrana, Bali, yang menghasilkan bunyi bass sangat dalam. Instrumen ini dikembangkan sejak abad ke‑19 hingga awal abad ke‑20 dan menjadi ciri khas musik daerah Jembrana. Bilah bambu raksasa dipukul oleh pemain berdiri, menciptakan gelombang bunyi dramatis. Jegog menjadi identitas musikal komunitas Jembrana dan sering tampil dalam festival Bali sebagai daya tarik budaya.",
     "meaning": "Simbol kekuatan dan kebersamaan masyarakat.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Jegog dimainkan dengan pemukul besar dari kayu, menghasilkan suara bass kuat."
   },
-
-{
+  {
     "id": "gong_luwu",
     "name": "Gong Luwu",
     "origin": "Sulawesi Selatan",
     "image": "../images/gong_luwu.jpg",
-    "history": "Gong Luwu digunakan dalam ritual kerajaan dan upacara adat Luwu.",
+    "history": "Gong Luwu adalah instrumen sakral dalam tradisi kerajaan Luwu, Sulawesi Selatan, yang digunakan dalam upacara kerajaan, ritual, dan musik istana. Sejak zaman dahulu, gong ini menjadi pengatur tempo dan simbol kewibawaan raja. Dalam pertunjukan musik tradisional, gong luwu digabungkan dengan instrumen lokal lain untuk membentuk gamelan daerah Luwu. Hingga kini, gong luwu tetap dijaga sebagai warisan seni dan budaya lokal.",
     "meaning": "Simbol kekuasaan dan kesakralan.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Permukaan gong dipukul dengan alat khusus yang dilapisi kain agar suara nyaring namun lembut."
@@ -305,7 +304,7 @@
     "name": "Gendang Mamuju",
     "origin": "Sulawesi Barat",
     "image": "../images/gendang_mamuju.jpg",
-    "history": "Gendang Mamuju dimainkan untuk mengiringi tari tradisional Mamuju.",
+    "history": "Gendang Mamuju adalah alat musik pukul tradisional yang digunakan oleh masyarakat Mamuju dalam upacara adat dan pertunjukan tari. Ritme gendang Mamuju disesuaikan dengan karakter tarian lokal, menciptakan tempo hidup yang menyatu dengan gerak penari. Gendang ini menjadi bagian penting dari identitas musikal daerah dan masih digunakan dalam festival budaya dan pelestarian seni.",
     "meaning": "Melambangkan semangat dan dinamika masyarakat.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Dipukul dengan tangan kanan dan kiri secara bergantian untuk pola ritmis."
@@ -315,7 +314,7 @@
     "name": "Lalove",
     "origin": "Sulawesi Tengah",
     "image": "../images/lalove.jpg",
-    "history": "Lalove adalah suling khas Kaili, Sulawesi Tengah.",
+    "history": "Lalove adalah suling tradisional masyarakat Kaili, Sulawesi Tengah, yang digunakan dalam upacara adat dan musik tradisional lokal. Bendanya dipegang dan ditiup sambil menutup lubang nada untuk menciptakan melodi lembut khas Kaili. Lalove melambangkan keindahan alam dan kedamaian lokal. Kini instrumen ini juga diperkenalkan dalam pentas kesenian modern sebagai warisan budaya Sulawesi Tengah.",
     "meaning": "Melambangkan kedamaian dan keindahan alam.",
     "howToPlay": "Ditiup",
     "howToPlayDetail": "Lalove dimainkan dengan meniup bagian atas sambil mengatur lubang nada dengan jari."
@@ -325,7 +324,7 @@
     "name": "kenong",
     "origin": "Nusa Tenggara Timur",
     "image": "../images/kenong.jpg",
-    "history": "kenong adalah alat musik perkusi tradisional Flores yang dimainkan saat upacara adat.",
+    "history": "Kenong adalah alat musik perkusi tradisional di Flores yang digunakan dalam upacara adat dan pertunjukan musik lokal. Piringan logamnya dipukul dengan pemukul kayu untuk menghasilkan bunyi resonan yang melengkapi irama gamelan lokal. Kenong sering berperan sebagai penanda waktu atau aksen musik. Dalam upaya pelestarian, kenong tetap ditampilkan dalam pergelaran seni dan festival budaya di NTT.",
     "meaning": "Mencerminkan kegembiraan masyarakat Flores.",
     "howToPlay": "Dipukul",
     "howToPlayDetail": "Dimainkan dengan memukul bagian piringan besi dengan pemukul kayu."

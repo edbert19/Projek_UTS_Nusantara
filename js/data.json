@@ -30,6 +30,16 @@
     "howToPlayDetail": "Alat gamelan Banjar dimainkan secara kolektif dengan cara dipukul menggunakan pemukul kayu berlapis kain atau karet."
   },
   {
+  "id": "sampeq_kaltara",
+  "name": "Sampeq",
+  "origin": "Kalimantan Utara",
+  "image": "../images/sampeq.jpg",
+  "history": "Sampeq adalah alat musik petik khas suku Dayak Kenyah yang banyak dijumpai di wilayah Kalimantan Utara. Instrumen ini telah menjadi bagian penting dari budaya Dayak selama berabad-abad dan sering dimainkan dalam upacara adat, penyambutan tamu, serta tarian tradisional. Dahulu, sampeq juga digunakan sebagai media komunikasi antaranggota suku serta sarana hiburan setelah bekerja di ladang. Setiap sampeq biasanya dibuat secara manual dari kayu pilihan dan diukir dengan motif khas suku pembuatnya.",
+  "meaning": "Sampeq melambangkan keharmonisan antara manusia, alam, dan roh leluhur dalam kehidupan masyarakat Dayak.",
+  "howToPlay": "Dipetik",
+  "howToPlayDetail": "Sampeq dimainkan dengan cara dipetik menggunakan jari tangan. Setiap senar menghasilkan nada berbeda, dan pemain biasanya memainkan melodi dengan irama yang mengikuti tarian atau lagu tradisional."
+},
+  {
     "id": "serunai_banjar",
     "name": "Serunai Banjar",
     "origin": "Kalimantan Selatan",
